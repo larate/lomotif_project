@@ -13,5 +13,5 @@ end
 
 
 When(/^I press on Following icon$/) do
-  pendingtext("Following")
+  find_element(name: "Following")
 end
